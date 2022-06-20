@@ -1,0 +1,22 @@
+@charset "EUC-KR";
+
+h1 {
+	color : blue;
+}
+:root {
+	color-scheme : light dark;
+}
+
+p {
+	color : green;
+}
+
+li {
+	list-style-type: none;
+}
+
+.special {
+	color : orange;
+	font-weight : bold;
+}
+

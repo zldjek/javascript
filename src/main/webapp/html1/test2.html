@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="test2_result.html">
+		<!-- 폼 태그 내의 요소들을 다른 페이지로 전송하고 해당 데이터를 가져오려면 name 속성 필수! -->
+		<!-- input type="text" 등의 입력 항목은 데이터 작성하지 않으면 파라미터명만 전송됨 -->
+		<!-- check 박스 항목은 미체크 시 파라미터 자체가 전송되지 않음 -->
+		<input type="text" placeholder="아이디" name="id"><br>
+		<input type="password" placeholder="비밀번호" name="passwd"><br>
+		<input type="checkbox" id="login" name="rememberLogin"><label for="login">로그인 상태 유지</label><br>
+		<input type="submit" value="로그인">
+	</form>
+	
+	<hr>
+	
+	<form action="test2_result.jsp">
+		<input type="text" placeholder="아이디" name="id"><br>
+		<input type="password" placeholder="비밀번호" name="passwd"><br>
+		<input type="checkbox" id="login" name="rememberLogin"><label for="login">로그인 상태 유지</label><br>
+		<input type="submit" value="로그인">
+	</form>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
